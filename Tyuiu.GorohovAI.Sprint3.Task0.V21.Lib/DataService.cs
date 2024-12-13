@@ -13,7 +13,7 @@ namespace Tyuiu.GorohovAI.Sprint3.Task0.V21.Lib
             }
 
             // Вывод результат
-            return S;
+            return Math.Round(S, 3);
         }
     }
 }
