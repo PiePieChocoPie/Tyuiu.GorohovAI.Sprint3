@@ -11,7 +11,7 @@ namespace Tyuiu.GorohovAI.Sprint3.Task1.V10.Lib
             {
                 S += Math.Pow((1/(i + Math.Pow(value, i))), i);
             }
-            return S;
+            return Math.Round(S, 3);
         }
     }
 }
